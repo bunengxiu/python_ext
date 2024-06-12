@@ -7,7 +7,7 @@ setup(
     ext_modules=[
         Extension(
             "demo",
-            sources=["src/python_extension.c"],
+            sources=["src/python_ext.c"],
         ),
     ],
 )
